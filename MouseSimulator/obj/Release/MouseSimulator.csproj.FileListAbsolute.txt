@@ -1,0 +1,11 @@
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\bin\Release\MouseSimulator.exe.config
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\bin\Release\MouseSimulator.exe
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\bin\Release\MouseSimulator.pdb
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.csprojAssemblyReference.cache
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.Form1.resources
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.printcut.resources
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.Properties.Resources.resources
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.csproj.GenerateResource.cache
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.exe
+C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Release\MouseSimulator.pdb
