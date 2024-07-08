@@ -96,33 +96,38 @@ namespace MouseSimulator
         {
             label6.Text = "";            
             HWMM.mouseSpeed = trackBar1.Value;
-            //posições das imagens caso encontrar
-            Point? destino1 = null;
-            Point? destino2 = null;
 
-            //inicio do cursor e fim
-            Point inicio = Point.Empty;
-            Point destino = Point.Empty;
-            int x = 0, y = 0;
-
-            int.TryParse(txtXgo.Text, out x);
-            int.TryParse(txtXgo.Text, out y);
-
+            Point? inicio = null;
+            Point? destino = null;
             Bitmap screenshot = captureScreen();
-            
-            bool achou1 = cronometrar_e_procurar(ref destino1, screenshot, (Bitmap)pictureBox1.Image);
-            bool achou2 = cronometrar_e_procurar(ref destino2, screenshot, (Bitmap)pictureBox2.Image);
 
-            destino = (destino2 ?? destino1 ?? new Point(x, y));
-
-            inicio = (destino1 ?? new Point(x, y));      
-            if (achou2)
-            {
-                HWMM.SetCursorPos(inicio.X, inicio.Y);
-            }     
-                
-            mover_e_clicar(destino);
+            //definindo posicao inicial do cursor
+            if (rdoDeCord.Checked) {
+                int x = 0, y = 0;
+                if (int.TryParse(txtXgo.Text, out x) && int.TryParse(txtYgo.Text, out y)) {
+                    inicio = new Point(x, y);
+                } 
+            } else if (rdoDeImg.Checked) {
+                bool achouImagemInicio = cronometrar_e_procurar(ref inicio, screenshot, (Bitmap)pictureBox1.Image);
+            }
             
+            // destino do cursor
+            if (rdoParaCord.Checked) {
+                int x = 0, y = 0;
+                if (int.TryParse(txtXend.Text, out x) && int.TryParse(txtYend.Text, out y)) {
+                    destino = new Point(x, y);
+                }
+            } else if (rdoParaImg.Checked) {
+                bool achouImagemDestino = cronometrar_e_procurar(ref destino, screenshot, (Bitmap)pictureBox2.Image);
+            }
+
+            // execução
+            if(destino != null) {
+                if (inicio != null) {
+                    HWMM.SetCursorPos(inicio.Value.X, inicio.Value.Y);
+                }
+                mover_e_clicar(destino.Value);
+            }   
         }
 
         private void mover_e_clicar(Point destino) {
@@ -311,8 +316,8 @@ namespace MouseSimulator
         private static IntPtr AddToPointer(IntPtr ptr, int offset, int offset2)
         {
             return new IntPtr(ptr.ToInt64() + offset * offset2);
-        }        
-
+        }
+        
     }
 
 }

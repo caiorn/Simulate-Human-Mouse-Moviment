@@ -10,3 +10,14 @@ C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Debug\MouseSimulato
 C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\bin\Debug\MouseSimulator.exe.config
 C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Debug\MouseSimulator.printcut.resources
 C:\Users\Caio\source\repos\MouseSimulator\MouseSimulator\obj\Debug\MouseSimulator.Form2.resources
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\bin\Debug\MouseSimulator.exe.config
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\bin\Debug\MouseSimulator.exe
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\bin\Debug\MouseSimulator.pdb
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.csproj.AssemblyReference.cache
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.Form1.resources
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.printcut.resources
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.Properties.Resources.resources
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.csproj.GenerateResource.cache
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.exe
+C:\Users\Micro\Source\Repos\Simulate-Human-Mouse-Moviment\MouseSimulator\obj\Debug\MouseSimulator.pdb

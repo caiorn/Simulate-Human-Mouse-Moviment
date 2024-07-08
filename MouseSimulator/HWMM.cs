@@ -64,7 +64,7 @@ namespace MouseSimulator
 
             double randomSpeed = Math.Max((random.Next(mouseSpeed) / 2.0 + mouseSpeed) / 10.0, 0.1);
 
-            WindMouseAsync(c.X, c.Y, x, y, 9.0, 3.0, 10.0 / randomSpeed,
+            WindMouseAsync(c.X, c.Y, x, y, 9.0, 4.0, 10.0 / randomSpeed,
                 15.0 / randomSpeed, 10.0 * randomSpeed, 10.0 * randomSpeed);
         }
 
